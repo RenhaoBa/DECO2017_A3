@@ -120,6 +120,7 @@ function TimerClass() {
 		music.src = arr[musics.selectedIndex];
 		// console.log(musics.selectedIndex);
 	
+		
 	//Double-click on the play
 	musics.ondblclick = function () {
 	music.src = arr[musics.selectedIndex];
