@@ -105,11 +105,11 @@ function TimerClass() {
 
 		// audio
 		let music = document.getElementById('music')
-		// 下拉列表
+		// The drop-down list
 		let musics = document.getElementById('musics');
 		// console.log(musics);
 		// console.log(music);
-		//定一个数组存放歌曲的地址
+		//Specify an array to store songs at
 		let arr = [
 			"./mp3/13061.mp3",
 			"./mp3/13148.mp3"
@@ -120,7 +120,7 @@ function TimerClass() {
 		music.src = arr[musics.selectedIndex];
 		// console.log(musics.selectedIndex);
 	
-	//双击播放
+	//Double-click on the play
 	musics.ondblclick = function () {
 	music.src = arr[musics.selectedIndex];
 	console.log(arr[musics.selectedIndex]);
