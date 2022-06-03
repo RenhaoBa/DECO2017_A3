@@ -111,8 +111,8 @@ function TimerClass() {
 		// console.log(music);
 		//Specify an array to store songs at
 		let arr = [
-			"./mp3/13061.mp3",
-			"./mp3/13148.mp3"
+			"music1.mp3",
+			"music2.mp3"
 		];
 		console.log(arr);
 
@@ -120,7 +120,7 @@ function TimerClass() {
 		music.src = arr[musics.selectedIndex];
 		// console.log(musics.selectedIndex);
 	
-		
+
 	//Double-click on the play
 	musics.ondblclick = function () {
 	music.src = arr[musics.selectedIndex];

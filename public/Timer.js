@@ -111,8 +111,8 @@ function TimerClass() {
 		// console.log(music);
 		
 		let arr = [
-			"./mp3/13061.mp3",
-			"./mp3/13148.mp3"
+			"music1.mp3",
+			"music2.mp3"
 		];
 		console.log(arr);
 
